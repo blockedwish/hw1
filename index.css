@@ -1,0 +1,60 @@
+*{
+    font-family: 'Noticia Text', serif;
+}
+body{
+    background-image: url("registration.webp");
+    background-size: cover;
+}
+section{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    margin: -40px;
+}
+div.login_container{
+    padding:10px;
+    background-color: #00000080;
+    width: 30%;
+    border-radius: 3px;
+
+}
+
+.login_container input{
+    height: 40px;
+    width:60%;
+    border-radius: 0px;
+}
+.login_container label{
+    font-size:25px;
+}
+.login_container button{
+    font-size:20px;
+}
+
+.form_row{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin:5px;
+}
+
+
+.error{
+    border-color: red;
+}
+a{
+    display:block;
+    color:cornsilk;
+}
+label{
+    color:antiquewhite;
+}
+input {
+    border: none ;
+    box-shadow: none; 
+    outline: none ;
+}

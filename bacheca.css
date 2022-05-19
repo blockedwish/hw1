@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(242, 242, 242);
+}
+#logout{
+    color:blue;
+}
+#logout:hover{
+    color:#cfcffd;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:70px;
+    padding-top: 100px;
+}
+
+.article{
+    border:2px solid green;
+    border-radius: 5px;
+    width:550px;
+    height:350px;
+    display:flex;
+    justify-content: space-around;
+ 
+
+}
+.seventy_block, .thirty_block{
+    width:65%;
+    height:100%;
+    display:inline-block;
+}
+.thirty_block{
+    background-color: #00000020;
+    width:35%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.thirty_block p{
+    font-size: 13px;
+    margin:3px;
+}
+.thirty_block h1{
+    font-size: 45px;
+    color:green;
+    margin-bottom: 0px;
+}
+.img_container{
+    width:100%;
+    height:70%;
+    overflow:hidden
+}
+.interaction_block{
+    height:30%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img_container img{
+    max-height: 100%;
+}
+
+
+.icon{
+    max-height: 50px;
+    max-width: 50px;
+    opacity:0.5;
+}
+
+
+
+/*restituisce tutti gli input nei quali l'id comincia con la stringa button-offer-*/
+input[id ^="button-offer-"]:hover,  .selected{
+    opacity: 1;
+}
+
+
+.miglior_offerente{
+    font-style: oblique;
+    margin:0px;
+    color:green
+}
+form{
+    margin:0px;
+}
+
+
+.center_flex{
+    height: 50px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+
+#add_button{
+    background-image: url("add.ico");
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    width:40px;
+    height: 40px;
+    opacity: 0.5;
+}
+#add_button:hover{
+    opacity:1;
+}
+
+.image_preview{
+    
+    height: 200px;
+    border:1px solid black;
+    overflow: hidden;
+    text-align: center;
+}
+#picture_img_preview{
+    max-height: 100%;
+    max-width: 100%;;
+}
+.border{
+    border:3px solid green;
+    border-radius: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin:10px;
+}
+.column_direction{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+#base_asta{
+    display: inline-block;
+    margin:10px;
+    color:green;
+    
+}
+
+.hidden{
+    display:none;
+}
+.padding{
+    padding:10px;
+}
+.centered{
+    justify-content: center;
+}
+.bold{
+    font-weight: bold;
+}
+#contenitore_form_crea_nuova_asta{
+    background-color: #8ad76cc2;
+}

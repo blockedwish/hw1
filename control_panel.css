@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(242, 242, 242);
+}
+section{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+table{
+    font-size: 20px;
+}
+td{
+    width:300px;
+}
+th {
+    background-color: #04AA6D;
+    color: white;
+    text-transform: uppercase;
+  
+}
+tr:hover {
+    background-color: #04AA6D30;
+}
+th,td{
+    border-bottom: 1px solid #ddd ;
+}

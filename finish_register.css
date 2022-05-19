@@ -1,0 +1,14 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.success{
+    background-color: lightgreen;
+}
+.failure{
+    background-color: red;
+}
